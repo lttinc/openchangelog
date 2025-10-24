@@ -48,5 +48,6 @@ COPY openchangelog.yml /etc/openchangelog.yaml
 
 WORKDIR /app
 COPY --from=builder /build/openchangelog ./openchangelog
+COPY release-notes /release-notes
 
 ENTRYPOINT ["/app/openchangelog"]
