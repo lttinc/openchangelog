@@ -2,14 +2,9 @@ addr: 0.0.0.0:6001
 #log:
   #level: INFO (default), DEBUG, WARN, ERROR
   #style: text (default), json
-github:
-  owner: lttinc
-  repo: novo-core
-  path: ""
-  auth:
-    accessToken: "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"
+
 #local:
-#filesPath: /release-notes
+filesPath: /release-notes
 cache: 
   type: disk
   disk:
