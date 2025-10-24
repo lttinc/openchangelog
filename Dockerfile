@@ -41,9 +41,10 @@ RUN if [ "$TARGETARCH" = "arm64" ]; then \
 
 FROM alpine
 
-ARG config=i-should-never-exists.jla
+#ARG config=i-should-never-exists.jla
 # Try to copy config, the * makes sure we don't fail if the file isn't found
-COPY *$config /etc/openchangelog.yaml
+#COPY *$config /etc/openchangelog.yaml
+COPY openchangelog.yml /etc/openchangelog.yaml
 
 WORKDIR /app
 COPY --from=builder /build/openchangelog ./openchangelog
