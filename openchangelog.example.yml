@@ -19,8 +19,8 @@ cache:
   #tinybird:
   #  accessToken:
 page:
-  title: Changelog
-  subtitle: The latest product updates from Openchangelog
+  title: Novo Changelog
+  subtitle: The latest product updates from Novo
   colorScheme: system
   hidePoweredBy: false
   logo:
