@@ -2,14 +2,14 @@ addr: 0.0.0.0:6001
 #log:
   #level: INFO (default), DEBUG, WARN, ERROR
   #style: text (default), json
-#github:
-#  owner: lttinc
-#  repo: novo-ai
-#  path: ""
-#  auth:
-#    accessToken: ${GITHUB_TOKEN}
+github:
+  owner: lttinc
+  repo: novo-core
+  path: ""
+  auth:
+    accessToken: ${GITHUB_TOKEN}
 #local:
-filesPath: /release-notes
+#filesPath: /release-notes
 cache: 
   type: disk
   disk:
