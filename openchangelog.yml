@@ -9,7 +9,7 @@ addr: 0.0.0.0:6001
 #  auth:
 #    accessToken: ${GITHUB_TOKEN}
 #local:
-  filesPath: /release-notes
+filesPath: /release-notes
 cache: 
   type: disk
   disk:
