@@ -1,0 +1,37 @@
+addr: 0.0.0.0:6001
+#log:
+  #level: INFO (default), DEBUG, WARN, ERROR
+  #style: text (default), json
+#github:
+#  owner:
+#  repo:
+#  path:
+#  auth:
+#    accessToken:
+local:
+  filesPath: /release-notes
+cache: 
+  type: disk
+  disk:
+    location: /data/cache/
+#analytics:
+  #provider: tinybird
+  #tinybird:
+  #  accessToken:
+page:
+  title: Changelog
+  subtitle: The latest product updates from Openchangelog
+  colorScheme: system
+  hidePoweredBy: false
+  logo:
+    src: https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png
+    width: 70px
+    height: 25px
+    link: https://www.openchangelog.com
+  auth:
+    enabled: false
+    # passwordHash: bcrypt encrypted hash of password
+search:
+  type: disk
+  disk:
+    path: /data/search
