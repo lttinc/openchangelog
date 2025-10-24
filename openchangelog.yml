@@ -7,7 +7,7 @@ github:
   repo: novo-core
   path: ""
   auth:
-    accessToken: ${GITHUB_TOKEN}
+    accessToken: "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"
 #local:
 #filesPath: /release-notes
 cache: 
