@@ -3,8 +3,8 @@ addr: 0.0.0.0:6001
   #level: INFO (default), DEBUG, WARN, ERROR
   #style: text (default), json
 
-#local:
-filesPath: /release-notes
+local:
+ filesPath: /release-notes
 cache: 
   type: disk
   disk:
